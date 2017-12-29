@@ -1,0 +1,15 @@
+
+# Ubuntu14 Trusty VM https://docs.travis-ci.com/user/reference/overview/
+sudo: required 
+dist: trusty
+
+language: python
+python:
+  - "2.7"
+services:
+  - docker
+branches:
+  only:
+   - master
+
+script: bash ./test.sh
