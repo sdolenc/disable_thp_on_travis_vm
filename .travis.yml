@@ -12,4 +12,4 @@ branches:
   only:
    - master
 
-script: bash ./test.sh
+script: sudo bash ./test.sh
